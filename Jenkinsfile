@@ -50,10 +50,6 @@ pipeline {
             }
         }
 
-        stage('Keep Alive') {
-            steps {
-                sh 'sleep infinity'
-            }
-        }
+
     }
 }
