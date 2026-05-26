@@ -24,7 +24,7 @@ def increment_count():
 def hello():
     count = increment_count()
     return jsonify({
-        "message": "Hello Spencer",
+        "message": "Hello Julian",
         "status": "success",
         "counter": count
     })

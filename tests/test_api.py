@@ -15,7 +15,7 @@ class TestHelloSpencerAPI(unittest.TestCase):
         """Test if the live API returns correct JSON"""
         response = requests.get(f"{self.BASE_URL}/api/hello")
         data = response.json()
-        self.assertEqual(data['message'], 'Hello Spencer')
+        self.assertEqual(data['message'], 'Hello Julian')
         self.assertEqual(data['status'], 'success')
 
 # test
