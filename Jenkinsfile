@@ -17,7 +17,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 cleanWs()
-                git 'https://github.com/ThomasMicheler/DEZSYS_JENKINS_HELLOSPENCER.git'
+                git branch: 'main', url: 'https://github.com/jglueck21/DEZSYS_JENKINS_HELLOSPENCER'
             }
         }
 
